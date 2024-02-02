@@ -23,3 +23,30 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/sales-dashboard.git
+
+2. Navigate to the project directory:
+   ```sh
+   Copy code
+   cd sales-dashboard
+
+3. Install NPM packages:
+   ```sh
+   npm install
+   
+Usage
+To start the application in development mode, run:
+
+   1. ```sh
+      npm start
+
+Open http://localhost:3000 to view it in the browser.
+
+Data Format
+The application expects a JSON file with an array of sales data objects. Each object should have a date in the YYYY-MM-DD format and a value representing the sales amount.
+
+Example:
+
+json
+  ```
+     { "date": "2022-01-01", "value": 500 },
+     { "date": "2022-01-02", "value": 700 }
